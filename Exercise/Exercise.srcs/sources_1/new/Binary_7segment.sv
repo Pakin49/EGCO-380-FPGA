@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 01/22/2025 12:00:05 AM
+// Create Date: 01/22/2025 10:57:45 AM
 // Design Name: 
-// Module Name: bcd_to_7segment
+// Module Name: Binary_7segment
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,21 +20,20 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module bcd_to_7segment(
-   
+module Binary_7segment(
 
     );
 endmodule
 
-module segment_a (
-   input reg in[3:0],
-   output logic out
+module segment_a(
+    input reg[3:0] in,
+    output logic out
 );
-    switch(in)
-    case 3`b000 :
 
-    default 
-    endcase 
-
+always_comb begin
+    case(in)
+    2'h00 : out = 1;
+    2'h01 : out  =2;
+endcase
+end
 endmodule
-   
