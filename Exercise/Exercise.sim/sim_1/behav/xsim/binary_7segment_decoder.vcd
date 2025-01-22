@@ -1,0 +1,190 @@
+$date
+   Wed Jan 22 14:59:51 2025
+$end
+
+$version
+  2024.2.0
+  $dumpfile ("binary_7segment_decoder.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module Binary_7segment_tb $end
+$var reg 4 ! bin [3:0] $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var wire 1 & e $end
+$var wire 1 ' f $end
+$var wire 1 ( g $end
+$scope module dut $end
+$var wire 4 ) in [3:0] $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var wire 1 & e $end
+$var wire 1 ' f $end
+$var wire 1 ( g $end
+$scope module seg_A $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 * out $end
+$upscope $end
+$scope module seg_B $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 + out $end
+$upscope $end
+$scope module seg_C $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 , out $end
+$upscope $end
+$scope module seg_D $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 - out $end
+$upscope $end
+$scope module seg_E $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 . out $end
+$upscope $end
+$scope module seg_F $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 / out $end
+$upscope $end
+$scope module seg_G $end
+$var wire 4 ) in [3:0] $end
+$var reg 1 0 out $end
+$upscope $end
+$upscope $end
+$scope begin Block18_8 $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+1"
+1#
+1$
+1%
+1&
+1'
+0(
+b0 )
+1*
+1+
+1,
+1-
+1.
+1/
+00
+b0 1
+$end
+
+#10000
+b1 !
+0"
+0%
+0&
+0'
+b1 )
+0*
+0-
+0.
+0/
+b1 1
+
+#20000
+b10 !
+1"
+0$
+1%
+1&
+1(
+b10 )
+1*
+0,
+1-
+1.
+10
+b10 1
+
+#30000
+b11 !
+1$
+0&
+b11 )
+1,
+0.
+b11 1
+
+#40000
+b100 !
+0"
+0%
+1'
+b100 )
+0*
+0-
+1/
+b100 1
+
+#50000
+b101 !
+1"
+0#
+1%
+b101 )
+1*
+0+
+1-
+b101 1
+
+#60000
+b110 !
+1&
+b110 )
+1.
+b110 1
+
+#70000
+b111 !
+1#
+0%
+0&
+0'
+0(
+b111 )
+1+
+0-
+0.
+0/
+00
+b111 1
+
+#80000
+b1000 !
+1%
+1&
+1'
+1(
+b1000 )
+1-
+1.
+1/
+10
+b1000 1
+
+#90000
+b1001 !
+0&
+b1001 )
+0.
+b1001 1
+
+#100000
+b1010 1

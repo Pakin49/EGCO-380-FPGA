@@ -34,6 +34,6 @@ module blocking_nonblocking_tb;
     initial begin
         $dumpfile("blocking_nonblocking.vcd");
         $dumpvars(0, blocking_nonblocking_tb);
-    end
+    end 
 
 endmodule
