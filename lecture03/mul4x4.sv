@@ -18,7 +18,7 @@ module multiplier_4x4_shift_add (
 
     // Generate partial products by shifting and ANDing
     for (i = 0; i < 4; i++) begin
-      partial_products[i] = {4'b0, (a & {4{b[i]}})} << i; // Shift left by i
+      partial_products[i] = {4'b0, (a & {4{b[i]}})} << i; // Shift left by i ,   "{,}" is  concatination
     end
 
     // Accumulate the partial products

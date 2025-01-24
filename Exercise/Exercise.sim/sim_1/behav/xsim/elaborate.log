@@ -6,4 +6,12 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sources_1/new/Binary_7segment.sv" Line 1. Module Binary_7segment doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sources_1/new/Binary_7segment.sv" Line 1. Module Binary_7segment doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Binary_7segment
+Compiling module xil_defaultlib.Binary_7segment_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Binary_7segment_tb_behav

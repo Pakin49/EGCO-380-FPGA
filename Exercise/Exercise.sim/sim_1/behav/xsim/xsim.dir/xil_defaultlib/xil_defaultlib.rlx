@@ -4,4 +4,4 @@ Nov  8 2024
 22:36:57
 C:/Work/EGCO380 FPGA/Exercise/Exercise.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
 C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sim_1/new/Binaray_7segment_tb.sv,1737532714,systemVerilog,,,,Binary_7segment_tb,,uvm,,,,,,
-C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sources_1/new/Binary_7segment.sv,1737530829,systemVerilog,,C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sim_1/new/Binaray_7segment_tb.sv,,Binary_7segment;segment_a;segment_b;segment_c;segment_d;segment_e;segment_f;segment_g,,uvm,,,,,,
+C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sources_1/new/Binary_7segment.sv,1737688697,systemVerilog,,C:/Work/EGCO380 FPGA/Exercise/Exercise.srcs/sim_1/new/Binaray_7segment_tb.sv,,Binary_7segment,,uvm,,,,,,

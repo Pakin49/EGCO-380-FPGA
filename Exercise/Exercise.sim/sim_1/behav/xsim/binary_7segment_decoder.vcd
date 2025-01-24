@@ -1,5 +1,5 @@
 $date
-   Wed Jan 22 14:59:51 2025
+   Fri Jan 24 10:52:17 2025
 $end
 
 $version
@@ -22,43 +22,15 @@ $var wire 1 ' f $end
 $var wire 1 ( g $end
 $scope module dut $end
 $var wire 4 ) in [3:0] $end
-$var wire 1 " a $end
-$var wire 1 # b $end
-$var wire 1 $ c $end
-$var wire 1 % d $end
-$var wire 1 & e $end
-$var wire 1 ' f $end
-$var wire 1 ( g $end
-$scope module seg_A $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 * out $end
+$var reg 1 * a $end
+$var reg 1 + b $end
+$var reg 1 , c $end
+$var reg 1 - d $end
+$var reg 1 . e $end
+$var reg 1 / f $end
+$var reg 1 0 g $end
 $upscope $end
-$scope module seg_B $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 + out $end
-$upscope $end
-$scope module seg_C $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 , out $end
-$upscope $end
-$scope module seg_D $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 - out $end
-$upscope $end
-$scope module seg_E $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 . out $end
-$upscope $end
-$scope module seg_F $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 / out $end
-$upscope $end
-$scope module seg_G $end
-$var wire 4 ) in [3:0] $end
-$var reg 1 0 out $end
-$upscope $end
-$upscope $end
-$scope begin Block18_8 $end
+$scope begin Block18_2 $end
 $var integer 32 1 i [31:0] $end
 $upscope $end
 $upscope $end
@@ -187,4 +159,70 @@ b1001 )
 b1001 1
 
 #100000
+b1010 !
+0%
+1&
+b1010 )
+0-
+1.
 b1010 1
+
+#110000
+b1011 !
+0"
+0#
+1%
+b1011 )
+0*
+0+
+1-
+b1011 1
+
+#120000
+b1100 !
+1"
+0$
+0(
+b1100 )
+1*
+0,
+00
+b1100 1
+
+#130000
+b1101 !
+0"
+1#
+1$
+0'
+1(
+b1101 )
+0*
+1+
+1,
+0/
+10
+b1101 1
+
+#140000
+b1110 !
+1"
+0#
+0$
+1'
+b1110 )
+1*
+0+
+0,
+1/
+b1110 1
+
+#150000
+b1111 !
+0%
+b1111 )
+0-
+b1111 1
+
+#160000
+b10000 1
