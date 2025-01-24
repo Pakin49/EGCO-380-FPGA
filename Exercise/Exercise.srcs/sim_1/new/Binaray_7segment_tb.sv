@@ -17,7 +17,7 @@ module Binary_7segment_tb;
   
   initial begin
     integer i;
-    for(i=0;i<=9;i=i+1) begin
+    for(i=0;i<=15;i=i+1) begin
       bin = i;
       #10;
     end

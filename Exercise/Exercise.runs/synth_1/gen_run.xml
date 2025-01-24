@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga324-1" LaunchTime="1737532957">
+<GenRun Id="synth_1" LaunchPart="xc7s25csga324-1" LaunchTime="1737689376" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Binary_7segment.dcp">
   <File Type="PA-TCL" Name="Binary_7segment.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Binary_7segment_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Binary_7segment_reports.tcl"/>
   <File Type="RDS-RDS" Name="Binary_7segment.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="Binary_7segment_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="Binary_7segment_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Binary_7segment_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Binary_7segment.dcp"/>
@@ -32,6 +32,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Binary_7segment.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
