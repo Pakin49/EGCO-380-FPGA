@@ -2,15 +2,16 @@
 module alu_tb;
 
     `include "instruction.vh"
-    
+    // input
     reg [3:0] op;
     reg [WORD_SIZE-1:0] expected;
-    wire [WORD_SIZE-1:0] out;
     reg [WORD_SIZE-1:0] in1, in2;
-    reg [(WORD_SIZE*3)+3:0] test_case [0:7];
+    reg [(WORD_SIZE*3)+4:0] test_case [0:8];
     reg alu_enable;
-    assign alu_enable = 1;
+    // output
+    wire [WORD_SIZE-1:0] out;
 
+    //CLK
     reg clk = 1'b0;
     always #5 clk = !clk;
 
@@ -26,13 +27,18 @@ module alu_tb;
     
     // Load test case values from a file
     initial begin
-        $readmemh("test_case.hex", test_case); 
-        #100;
-        for (integer i = 0; i < 8; i = i + 1) begin
-            #10;
-            { op, in1, in2, expected } = test_case[i];
-            $display("Test Case %0d:%d op = %h, in1 = %h, in2 = %h, expected = %h, out = %h, ok = %b",i,test_case, op, in1, in2, expected, out, (expected == out));
+        #50;
+        for (integer i = 0; i < 9; i = i + 1) begin
+            #10 {op,in1,in2,expected} = test_case[i];
+            alu_enable = 1;
+            $display("Time:%0t,op = %d, in1 = %d, in2 = %d, expected = %d, out = %d, ok = %d",$time,op, in1, in2, expected, out, (expected == out));
+            #10 alu_enable = 0;
         end
-        $stop; // End simulation
+        $finish; // End simulation
+    end
+
+    initial begin
+        $dumpfiles("ALU.vcd");
+        $dumpvars(0,alu0);
     end
 endmodule
