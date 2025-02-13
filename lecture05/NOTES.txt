@@ -1,0 +1,4 @@
+clk -> CLK12MHZ
+inc_btn -> btn[0]
+dec_btn -> btn[1]
+[3:0] count -> [3:0] led

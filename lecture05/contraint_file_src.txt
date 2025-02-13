@@ -1,0 +1,1 @@
+https://github.com/Digilent/digilent-xdc/blob/master/Arty-S7-25-Master.xdc
