@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Work/EGCO-380-FPGA/Fast_Adder/Fast_Adder.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+C:/Work/EGCO-380-FPGA/Fast_Adder/Fast_Adder.srcs/sim_1/new/fast_adder_tb.sv,1737911421,systemVerilog,,,,fast_adder_4bits_tb,,uvm,,,,,,
+C:/Work/EGCO-380-FPGA/Fast_Adder/Fast_Adder.srcs/sources_1/new/fast_adder.sv,1737911459,systemVerilog,,C:/Work/EGCO-380-FPGA/Fast_Adder/Fast_Adder.srcs/sim_1/new/fast_adder_tb.sv,,FA_no_Cout;fast_adder_4bits,,uvm,,,,,,

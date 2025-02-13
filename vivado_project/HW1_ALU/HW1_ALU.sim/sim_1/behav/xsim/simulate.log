@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Time:5000, op =  x, in1 =     x, in2 =     x, expected =     x, out =     z, ok = x
+Time:60000, op =  0, in1 =     5, in2 =     7, expected =    12, out =    12, ok = 1
+Time:70000, op =  1, in1 =    15, in2 =     4, expected =    11, out =    11, ok = 1
+Time:80000, op =  2, in1 =     4, in2 =     9, expected =    36, out =    36, ok = 1
+Time:90000, op =  3, in1 =     5, in2 =     7, expected =     1, out =     1, ok = 1
+Time:100000, op =  4, in1 =     9, in2 =    12, expected =     8, out =     8, ok = 1
+Time:110000, op =  5, in1 =     9, in2 =    12, expected =    13, out =    13, ok = 1
+Time:120000, op =  6, in1 =     9, in2 =    12, expected =     5, out =     5, ok = 1
+Time:130000, op =  7, in1 =     5, in2 =     3, expected =    40, out =    40, ok = 1
+Time:140000, op =  8, in1 =     8, in2 =     2, expected =     2, out =     2, ok = 1
+$finish called at time : 150 ns : File "C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sim_1/new/alu_tb.sv" Line 36

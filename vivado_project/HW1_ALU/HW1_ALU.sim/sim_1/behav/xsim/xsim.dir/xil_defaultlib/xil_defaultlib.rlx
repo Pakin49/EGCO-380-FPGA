@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+,,,,,C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sources_1/new/instruction.vh,alu_tb,,,,,,,,
+C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sources_1/new/alu.sv,1739462619,systemVerilog,,C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sim_1/new/alu_tb.sv,C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sources_1/new/instruction.vh,alu,,uvm,../../../../HW1_ALU.srcs/sources_1/new,,,,,
+C:/Work/EGCO-380-FPGA/vivado_project/HW1_ALU/HW1_ALU.srcs/sources_1/new/instruction.vh,1739461992,verilog,,,,,,,,,,,,

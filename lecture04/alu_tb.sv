@@ -25,6 +25,7 @@ module test;
     assign data[5] = { `ALU_OR,    16'd9,  16'd12, 16'd13 };
     assign data[6] = { `ALU_XOR,   16'd9,  16'd12, 16'd5 };
     assign data[7] = { `ALU_SHIFT, 16'd5,  16'd3,  16'd40 };
+
     
     assign { op, in1, in2, expected } = data[num];
     
