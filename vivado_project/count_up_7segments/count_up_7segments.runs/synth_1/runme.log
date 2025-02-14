@@ -1,0 +1,371 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Feb 14 11:27:16 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Work/EGCO380 FPGA/vivado_project/count_up_7segments/count_up_7segments.srcs/utils_1/imports/synth_1/top.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Work/EGCO380 FPGA/vivado_project/count_up_7segments/count_up_7segments.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7s25csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25csga324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15380
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 982.715 ; gain = 465.113
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:32]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:32]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:41]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:43]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:43]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:45]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:45]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:47]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:47]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:49]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:49]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:58]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:58]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:67]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:69]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:69]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:71]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:71]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:73]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:73]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:82]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:82]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:84]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:84]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:86]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:86]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:88]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:88]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:90]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:90]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:92]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:92]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:94]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:94]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:96]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:96]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:105]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:114]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:114]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:116]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:116]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:118]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:118]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:120]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:120]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:129]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:129]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:131]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:131]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:140]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:140]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:142]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:142]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:151]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:151]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:160]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:160]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:162]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:162]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:171]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:171]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:180]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:190]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:199]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:199]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:201]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:201]
+WARNING: [Synth 8-6901] identifier 'flags' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:201]
+WARNING: [Synth 8-6901] identifier 'FLAG_C' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:201]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:203]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:203]
+WARNING: [Synth 8-6901] identifier 'flags' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:203]
+WARNING: [Synth 8-6901] identifier 'FLAG_Z' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:203]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:212]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:212]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:214]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:214]
+WARNING: [Synth 8-6901] identifier 'pc' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:227]
+WARNING: [Synth 8-6901] identifier 'mem' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:228]
+WARNING: [Synth 8-6901] identifier 'mar' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:228]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:229]
+WARNING: [Synth 8-6901] identifier 'a_reg' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:230]
+WARNING: [Synth 8-6901] identifier 'alu' is used before its declaration [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:231]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Work/EGCO380 FPGA/lecture06/top_impl.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (0#1) [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'bin_to_bcd' [C:/Work/EGCO380 FPGA/lecture06/bin_to_bcd.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'bin_to_bcd' (0#1) [C:/Work/EGCO380 FPGA/lecture06/bin_to_bcd.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg' [C:/Work/EGCO380 FPGA/lecture06/7seg.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (0#1) [C:/Work/EGCO380 FPGA/lecture06/7seg.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Work/EGCO380 FPGA/lecture06/top_impl.sv:5]
+WARNING: [Synth 8-6014] Unused sequential element ctrl_ce_reg was removed.  [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:181]
+WARNING: [Synth 8-6014] Unused sequential element ctrl_fi_reg was removed.  [C:/Work/EGCO380 FPGA/lecture06/cpu.sv:213]
+WARNING: [Synth 8-3917] design top has port jb[3] driven by constant 1
+WARNING: [Synth 8-3917] design top has port jb[2] driven by constant 0
+WARNING: [Synth 8-3917] design top has port jb[1] driven by constant 0
+WARNING: [Synth 8-3917] design top has port jb[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1091.258 ; gain = 573.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1091.258 ; gain = 573.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1091.258 ; gain = 573.656
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1091.258 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Work/EGCO380 FPGA/lecture06/arty_s7_25.xdc]
+Finished Parsing XDC File [C:/Work/EGCO380 FPGA/lecture06/arty_s7_25.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Work/EGCO380 FPGA/lecture06/arty_s7_25.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1183.895 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1183.895 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1183.895 ; gain = 666.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1183.895 ; gain = 666.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1183.895 ; gain = 666.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1183.895 ; gain = 666.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 11    
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---RAMs : 
+	              128 Bit	(16 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 7     
+	   2 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design top has port jb[3] driven by constant 1
+WARNING: [Synth 8-3917] design top has port jb[2] driven by constant 0
+WARNING: [Synth 8-3917] design top has port jb[1] driven by constant 0
+WARNING: [Synth 8-3917] design top has port jb[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1183.895 ; gain = 666.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+--------------+-----------+----------------------+---------------+
+|Module Name | RTL Object   | Inference | Size (Depth x Width) | Primitives    | 
++------------+--------------+-----------+----------------------+---------------+
+|top         | cpu0/mem_reg | Implied   | 16 x 8               | RAM16X1S x 8  | 
++------------+--------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1287.684 ; gain = 770.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1287.906 ; gain = 770.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+--------------+-----------+----------------------+---------------+
+|Module Name | RTL Object   | Inference | Size (Depth x Width) | Primitives    | 
++------------+--------------+-----------+----------------------+---------------+
+|top         | cpu0/mem_reg | Implied   | 16 x 8               | RAM16X1S x 8  | 
++------------+--------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1316.543 ; gain = 798.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |     8|
+|3     |LUT1     |     1|
+|4     |LUT2     |     8|
+|5     |LUT3     |    10|
+|6     |LUT4     |    11|
+|7     |LUT5     |    26|
+|8     |LUT6     |    40|
+|9     |RAM16X1S |     8|
+|10    |FDCE     |    45|
+|11    |FDRE     |    31|
+|12    |IBUF     |     2|
+|13    |OBUF     |    11|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1513.844 ; gain = 903.605
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1513.844 ; gain = 996.242
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1516.523 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1520.102 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 8 instances
+
+Synth Design complete | Checksum: b538193c
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 94 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1520.102 ; gain = 1166.242
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1520.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Work/EGCO380 FPGA/vivado_project/count_up_7segments/count_up_7segments.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 14 11:27:43 2025...

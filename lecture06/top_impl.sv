@@ -53,7 +53,7 @@ always @(posedge CLK)
 	clk <= clk + 1;
 
 cpu cpu0(
-  .clk(clk[16]), // 16th bit, becomes 1 every 2^16 cycles of CLK
+  .clk(clk[16]), // 16th bit, becomes 1 every 2^17 cycles of CLK
 	.reset(PIN_13),
 	.out(out));
 
@@ -77,6 +77,7 @@ seven_seg seven_seg_hundreds(
 	.bcd(bcd[11:8]),
 	.segments(seg_hundreds));
 
+/*
 always @(posedge clk[15])
 	case (cathode)
 		4'b1110: begin
@@ -95,8 +96,10 @@ always @(posedge clk[15])
 			cathode = 4'b1111;
 		end
 	endcase
+*/
 
-assign {PIN_20, PIN_17, PIN_16, PIN_12} = cathode;
+assign {PIN_20, PIN_17, PIN_16, PIN_12} = ~cathode;
+assign {PIN_11, PIN_9, PIN_15, PIN_18, PIN_19, PIN_10, PIN_14} = seg_ones;
 
 endmodule
 

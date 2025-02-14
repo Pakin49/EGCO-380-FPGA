@@ -26,10 +26,13 @@ parameter OP_HLT = 4'b1111; // halt
 // MARK: Control Signals
 ///////////////////////////////////////////////////////////////////////////////
 
+// all Control Signals update on the negative edge, prepare the signal first
+// Other compoents update on the positive edge
+
 // Halt
 reg ctrl_ht;
 always @(negedge clk) begin
-	if (ir[7:4] == OP_HLT && stage == 2)
+	if (ir[7:4] == OP_HLT && stage == 2) // Sequence counter = stage 
 		ctrl_ht <= 1;
 	else
 		ctrl_ht <= 0;
@@ -269,6 +272,7 @@ end
 // MARK: Memory Address Register
 ///////////////////////////////////////////////////////////////////////////////
 
+// 16 bytes ram so only 4 bits for address
 reg[3:0] mar;
 always @(posedge clk or posedge reset) begin
 	if (reset)
